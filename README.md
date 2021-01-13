@@ -13,6 +13,7 @@ and for example this is your first state:
   --- | --- | ---
   :crescent_moon: | :sunny: | :crescent_moon:
   :sunny: | < Blank > | :sunny:
+  
 Now This algorithm Shows the way to find your way through goal.
 
 ### Code explantion
