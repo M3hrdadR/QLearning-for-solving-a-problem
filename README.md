@@ -1,5 +1,5 @@
 # QLearning
-## implementation of Qlearning for solving Sun/Moon game.
+## Implementation of Qlearning for solving Sun/Moon game.
 
 ### Explaining the game
 - Consider we have 3 * 3 square (9 tiles) that 4 of tiles are sun :sunny: and 4 are moon :crescent_moon: and thus there is one blank tile. you should move the blank tile to read the goal position. That is as follows:
@@ -34,3 +34,16 @@
 - Finally in `Qlearn` method I implemented q-learning, `Episode` method makes the episodes
 - and `Transition` method is clear (gets the code of an state and an action and returns the code of next state).
 - `Print` is just for printing the table.
+
+### A bit running!
+- Now I want to show one of lines of output and explain about it.
+- `s m m b m s s m s  | Right : 79.67 | Left : -1000 | Up : 97.81 | Down : 3.14 | State number: 228`
+- The first part is the way that suns and moons are located in this state(the last part is state number).
+- for example here we have:
+- :sunny: | :crescent_moon: | :crescent_moon:
+  --- | --- | ---
+  <Blank> | :crescent_moon: | :sunny:
+  :sunny: | :crescent_moon: | :sunny:
+  
+- Next parts are related to moving the blank space for example `Up : 97.81` means that if we move the blank tile to up we'rr rewarded by    `97.81` points. (obviously we choose the one move with max reward.)
+
