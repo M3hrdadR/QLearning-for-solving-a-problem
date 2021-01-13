@@ -37,6 +37,7 @@
 
 ### A bit running!
 - Now I want to show one of lines of output and explain about it.
+
   `s m m b m s s m s  | Right : 79.67 | Left : -1000 | Up : 97.81 | Down : 3.14 | State number: 228`
 - The first part is the way that suns and moons are located in this state(the last part is state number).
 - for example here we have:
